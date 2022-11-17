@@ -1,4 +1,4 @@
-#import "Test-Bridging-Header.h"
+#import "TestModule-Bridging-Header.h"
 
 @interface RCT_EXTERN_MODULE(TestModule, NSObject)
 
