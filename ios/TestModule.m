@@ -1,8 +1,8 @@
-@implementation TestModule
+#import <React/RCTBridgeModule.m>
+#import <React/RCTViewManager.m>
 
-RCT_EXTERN_METHOD(multiply:(float)a withB:(float)b
-                 withResolver:(RCTPromiseResolveBlock)resolve
-                 withRejecter:(RCTPromiseRejectBlock)reject)
+
+@interface RCT_EXTERN_MODULE(TestModule, NSObject)
 
 RCT_EXTERN_METHOD(NavigateMe)
 @end
