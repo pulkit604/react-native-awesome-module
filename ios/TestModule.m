@@ -1,6 +1,4 @@
-#import <React/RCTBridgeModule.m>
-#import <React/RCTViewManager.m>
-
+#import "Test-Bridging-Header.h"
 
 @interface RCT_EXTERN_MODULE(TestModule, NSObject)
 
