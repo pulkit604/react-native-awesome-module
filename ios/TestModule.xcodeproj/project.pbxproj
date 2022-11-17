@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A5279D1291C69B600CAF6BC /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5279CF291C69B600CAF6BC /* TestController.swift */; };
+		0A5279D1291C69B600CAF6BC /* TestController in Sources */ = {isa = PBXBuildFile; fileRef = 0A5279CF291C69B600CAF6BC /* TestController */; };
 		F4FF95D7245B92E800C19C63 /* TestModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* TestModule.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A5279CF291C69B600CAF6BC /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		0A5279CF291C69B600CAF6BC /* TestController */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestController; sourceTree = "<group>"; };
 		0A5279D0291C69B600CAF6BC /* TestController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestController.xib; sourceTree = "<group>"; };
 		0A5279D2291C754200CAF6BC /* TestModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModule.h; sourceTree = "<group>"; };
 		134814201AA4EA6300B7C361 /* libTestModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +55,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				0A5279CF291C69B600CAF6BC /* TestController.swift */,
+				0A5279CF291C69B600CAF6BC /* TestController */,
 				0A5279D0291C69B600CAF6BC /* TestController.xib */,
 				F4FF95D6245B92E800C19C63 /* TestModule.swift */,
 				B3E7B5891CC2AC0600A0062D /* TestModule.m */,
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4FF95D7245B92E800C19C63 /* TestModule.swift in Sources */,
-				0A5279D1291C69B600CAF6BC /* TestController.swift in Sources */,
+				0A5279D1291C69B600CAF6BC /* TestController in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
